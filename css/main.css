@@ -2,7 +2,12 @@ body{
     font-family: "Prompt";
     min-height: 100dvh;
     margin: 0;
-    background-color: #d9d9dc;
+    background-color: #f1f1f7;
+}
+hr{
+    border: 0;
+    margin: 0;
+    height: .1em;
 }
 #css-navbar{
     height: 30dvh;
@@ -56,4 +61,84 @@ body{
 #css-bestsellers h3{
     margin: 0;
     font-size: 2.2em;
+}
+#bestsellers-products{
+    height: fit-content;
+    background-color: #041E5F;
+    padding: 2.5em;
+    text-align: center;
+}
+.product-box{
+    margin-bottom: 3em;
+    color: #FFFFFF;
+}
+.product{
+    height: 30dvh;
+    background-color: #FFFFFF;
+    padding: 1em 3.5em 1em 3.5em;
+}
+.product-image{
+    height: 30dvh;
+    background-image: url("../assets/images/background-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add-to-cart{
+    width: 20em;
+    height: 3em;
+    color: #ffffff;
+    border-color: #FFFFFF;
+    background-color: #041E5F;
+    border-radius: .3em;
+}
+#recommended{
+    background-color: #041E5F;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1em 0em 0em 0em;
+}
+#recommended p{
+    margin: 0;
+    font-size: 1.1em;
+    font-family: "Raleway",sans-serif;
+}
+#recommended h3{
+    margin: 0;
+    font-size: 2.2em;
+    font-family: "Anton",sans-serif;
+}
+#recommended-books{
+    height: fit-content;
+    background-color: #041E5F;
+    padding: 2.5em;
+    text-align: center;
+}
+#daily-quote{
+    font-family: 'Anton',sans-serif;
+    font-size: 3.5em;
+    color: #d9d9dc;
+}
+#daily-quote p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+#story-button{
+    color: #ffffff;
+    border-color: #FFFFFF;
+    background-color: #041E5F;
+    height: 3em;
+    width: 10em;
+    border-radius: .3em;
+}
+#coming-up-books{
+    text-align: center;
+    color: #041E5F;
+}
+#coming-up-books p{
+    margin-bottom: 0em;
+}
+#coming-up-books h3{
+    margin-top: 0em;
+    margin-bottom: .4em;
+    font-size: 2.5em;
 }
