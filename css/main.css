@@ -1,13 +1,12 @@
 body{
-    /*TODO 
-    FONT FAMILY
-    */
+    font-family: "Prompt";
     min-height: 100dvh;
     margin: 0;
+    background-color: #d9d9dc;
 }
 #css-navbar{
-    height: 25dvh;
-    background-color: #d9d9dc;
+    height: 30dvh;
+    background-color: transparent;
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
@@ -30,4 +29,31 @@ body{
 #navbar-items ul li a {
     text-decoration: none;
     color: #041E5F;
+}
+#background-image-1 {
+    width: 100%;
+    height: 35dvh;
+    background-image: url("../assets/images/background-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 1em 0em 1em 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .42rem;
+    color: #041E5F;
+}
+#css-bestsellers{
+    padding: 1em 0em 0em 0em;
+    text-align: center;
+    color: #041E5F;
+}
+#css-bestsellers p{
+    margin: 0;
+    font-size: 1.1em;
+}
+#css-bestsellers h3{
+    margin: 0;
+    font-size: 2.2em;
 }
