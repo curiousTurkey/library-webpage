@@ -1,0 +1,33 @@
+body{
+    /*TODO 
+    FONT FAMILY
+    */
+    min-height: 100dvh;
+    margin: 0;
+}
+#css-navbar{
+    height: 25dvh;
+    background-color: #d9d9dc;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+#navbar-logo img{
+    width: 20dvh;
+    display: block;
+    margin: auto;
+}
+#navbar-items ul{
+    margin: 0;
+    padding: 0;
+    padding-top: .5em;
+    list-style-type: none;
+    text-align: center;
+}
+#navbar-items ul li {
+    padding: .5em;
+}
+#navbar-items ul li a {
+    text-decoration: none;
+    color: #041E5F;
+}
