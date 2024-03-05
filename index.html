@@ -18,7 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+    </style>
 </head>
 
 <body>
@@ -42,11 +47,11 @@
         <p>BOOK,</p>
         <p>AND YOU</p>
     </div>
-    <div id="css-bestsellers">
+    <div id="css-bestsellers"> <!--best sellers section-->
         <p>YMA. Publishers</p>
         <h3>BESTSELLERS</h3>
     </div>
-    <div id="bestsellers-products">
+    <div id="bestsellers-products"> <!--best sellers section products-->
         <div class="product-box">
             <div class="product">
                 <div class="product-image">
@@ -87,12 +92,12 @@
             <p>$19.99</p>
             <button class="add-to-cart">Add to cart</button>
         </div>
-    </div>
+    </div> <!--best sellers end-->
     <hr>
-    <div id="recommended">
-    <p>This Month's</p>
-    <h3>Recommended</h3>
-    <h3>Books</h3>
+    <div id="recommended"> <!--recommended section-->
+        <p>This Month's</p>
+        <h3>Recommended</h3>
+        <h3>Books</h3>
     </div>
     <div id="recommended-books">
         <div class="product-box">
@@ -123,11 +128,67 @@
             <p>MANY BOOKS&ldquo;</p>
             <button id="story-button">Read Our Story</button>
         </div>
-    </div>
-    <div id="coming-up-books">
+    </div> <!--recommended section end-->
+    <div id="coming-up-books"> <!--featured books section-->
         <p>Coming Up</p>
         <h3>BOOK LAUNCH</h3>
     </div>
+    <div id="coming-up-book">
+        <div id="book-image">
+            <div class="product-box">
+                <div class="product">
+                    <div class="product-image">4
+                        <img src="assets/books/upcoming-book.jpg" alt="product image">
+                    </div>
+                </div>
+            </div>
+        </div> <!--upcoming book image-->
+        <div id="book-details">
+            <h1 class="book-details">Introducing The God Of War</h1>
+            <p class="book-author">By Matthew Stover</p>
+            <p class="location-and-time">When</p>
+            <p class="launchdate">Mar 17, 2024, 9:00 AM</p>
+            <p class="location-and-time">Where</p>
+            <p class="launchdate">1001 Fanshawe Bouleward, London, Ontario, Canada</p>
+            <button class="rsvp">RSVP NOW</button>
+        </div> <!--describe upcoming book details-->
+    </div>
+    <footer>
+        <div id="first-section">
+            <p class="footer-text heading">YMA. Publishers</p>
+            <p class="footer-text">1001 Fanshawe Bouleward,</p>
+            <p class="footer-text">London, Ontario, Canada</p>
+            <p class="footer-text">123-445-9980</p>
+            <p class="footer-text">yma@publicdomain.com</p>
+        </div>
+        <!--first section-->
+        <div id="second-section">
+            <p class="footer-text heading">Shop</p>
+            <p class="footer-text">FAQ</p>
+            <p class="footer-text">Shipping & Returns</p>
+            <p class="footer-text">Store Policy</p>
+            <p class="footer-text">Payment Methods</p>
+        </div>
+        <!--second section-->
+        <div id="third-section">
+            <p class="footer-text heading">Socials</p>
+            <p class="footer-text">instagram</p>
+            <p class="footer-text">Facebook</p>
+            <p class="footer-text">Twitter</p>
+            <p class="footer-text">Pinterest</p>
+        </div>
+        <!--third section-->
+        <div id="fourth-section">
+            <p class="footer-text heading">Be the first to Know</p>
+            <p class="footer-text">Sign up for our newsletter</p>
+            <input type="email" placeholder="Enter your email here*" name="email" class="email-input" title="Email"> <br>
+            <button class="sub-button" title="Subscribe">Subscribe</button>
+        </div>
+        <!--fourth section-->
+        <div id="fifth-section">
+            &copy;<span class="footer-text">2035 by YMA Publishers.</span>
+        </div>
+    </footer> <!--web site footer-->
 </body>
 
 </html>

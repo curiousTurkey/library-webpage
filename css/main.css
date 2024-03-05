@@ -63,7 +63,7 @@ hr{
     margin: 0;
     font-size: 2.2em;
 }
-#bestsellers-products{
+#bestsellers-products, #recommended-books, #book-image{
     height: fit-content;
     background-color: #041E5F;
     padding: 2.5em;
@@ -116,12 +116,6 @@ hr{
     font-size: 2.2em;
     font-family: "Bebas",sans-serif;
 }
-#recommended-books{
-    height: fit-content;
-    background-color: #041E5F;
-    padding: 2.5em;
-    text-align: center;
-}
 #daily-quote{
     font-family: 'Raleway',sans-serif;
     font-size: 3.5em;
@@ -150,4 +144,79 @@ hr{
     margin-top: 0em;
     margin-bottom: .4em;
     font-size: 2.5em;
+}
+#book-details{
+    font-family: 'Abel', sans-serif;
+    color: #041E5F;
+    padding: 0em 0em 2em 2em;
+}
+.book-details{
+    font-size: 3em;
+    height: fit-content;
+}
+.book-author, .launchdate{
+    font-size: 1.2em;
+}
+.location-and-time {
+    font-size: 1.65em;
+}
+.rsvp{
+    width: 10em;
+    height: 3em;
+    background-color: #ffffff;
+    border-width: .2em;
+    border-color: #041E5F;
+    color: #041E5F;
+    border-radius: .3em;
+}
+footer{
+    background-color: #041E5F;
+    height: fit-content;
+    padding: 0em 2em 1em 2em;
+}
+.footer-text{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Abel',sans-serif;
+    font-size: 1.3em;
+}
+#first-section, #second-section, #third-section, #fourth-section, #fifth-section{
+    padding: 1em 0em 1em 0em;
+}
+footer .heading{
+    padding-bottom: 1em;
+}
+.email-input{
+   background-color: #041E5F;
+   color: #FFFFFF;
+   border-style:solid;
+   border-width: .2em;
+   border-color: #FFFFFF;
+   height: 2em;
+   width: 100%;
+   padding: 1.2em;
+   box-sizing: border-box;
+}
+.email-input::placeholder{
+    color: #FFFFFF;
+    font-family: 'Abel',sans-serif;
+    font-size: 1.3em;
+}
+.sub-button{
+    margin-top: 1em;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #041E5F;
+    border-width: .1em;
+    color: #041E5F;
+    height: 2.5em;
+}
+#fifth-section{
+    text-align: center;
+    font-size: .8em;
+    color: #FFFFFF;
+}
+#fifth-section span{
+    padding-left: .2em;
 }
