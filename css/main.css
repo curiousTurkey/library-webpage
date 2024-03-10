@@ -220,7 +220,7 @@ span.footer-text{
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 521px) {
+@media screen and (min-width: 615px) {
     #css-navbar{
         display: flex;
         justify-content: space-between;
@@ -259,6 +259,12 @@ span.footer-text{
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+    }
+    #daily-quote{
+        padding-bottom: 1em;
+    }
+    #daily-quote p:nth-child(4){
+        padding-bottom: .7em;
     }
     #coming-up-book{
         display: flex;
