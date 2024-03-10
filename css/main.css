@@ -77,6 +77,7 @@ hr{
     height: 30dvh;
     background-color: #FFFFFF;
     padding: 1em 3.5em 1em 3.5em;
+    flex-grow: 0;
 }
 .product-image{
     height: 30dvh;
@@ -212,11 +213,76 @@ footer .heading{
     color: #041E5F;
     height: 2.5em;
 }
-#fifth-section{
+span.footer-text{
+    padding-left: .2em;
     text-align: center;
-    font-size: .8em;
+    font-size: 1em;
     color: #FFFFFF;
 }
-#fifth-section span{
-    padding-left: .2em;
+
+@media screen and (min-width: 521px) {
+    #css-navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 8dvh;
+    }
+    #navbar-logo img{
+        padding-top: 1.5dvh;
+        width: 25dvh;
+
+    }
+    #navbar-items ul li {
+        display: inline-block;
+        
+    }
+    #navbar-items ul li a:hover {
+        background-color: #041E5F;
+        color: #FFFFFF;
+        transition-duration: 200ms;
+        padding: .4em;
+    }
+    #background-image-1{
+        height: 60dvh;
+    }
+    #background-image-1 p{
+        font-size: 1.6em;
+        margin-left: 2em;
+    }
+    #bestsellers-products{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #recommended-books{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #coming-up-book{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #fourth-section{
+        width: 20em;
+    }
+    .email-input .sub-button{
+        width: 100%;
+    }
+    .add-to-cart:hover, #story-button:hover{
+        background-color: #FFFFFF;
+        color: #041E5F;
+        transition-duration: 200ms;
+        border-color: #0548ef;
+    }
+    
+
 }
