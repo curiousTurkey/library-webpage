@@ -1,41 +1,48 @@
-body{
+body {
     font-family: "Prompt";
     min-height: 100dvh;
     margin: 0;
     background-color: #f1f1f7;
 }
-hr{
+
+hr {
     border: 0;
     margin: 0;
     height: .1em;
 }
-#css-navbar{
+
+#css-navbar {
     height: 30dvh;
     background-color: transparent;
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
 }
-#navbar-logo img{
+
+#navbar-logo img {
     width: 20dvh;
     display: block;
     margin: auto;
     object-fit: cover;
 }
-#navbar-items ul{
+
+#navbar-items ul {
     margin: 0;
     padding: 0;
     padding-top: .5em;
     list-style-type: none;
     text-align: center;
 }
+
 #navbar-items ul li {
     padding: .5em;
 }
+
 #navbar-items ul li a {
     text-decoration: none;
     color: #041E5F;
 }
+
 #background-image-1 {
     width: 100%;
     height: 40dvh;
@@ -50,50 +57,61 @@ hr{
     letter-spacing: .42rem;
     color: #041E5F;
 }
-#css-bestsellers{
+
+#css-bestsellers {
     padding: 1em 0em 0em 0em;
     text-align: center;
     color: #041E5F;
 }
-#css-bestsellers p{
+
+#css-bestsellers p {
     margin: 0;
     font-size: 1.1em;
 }
-#css-bestsellers h3{
+
+#css-bestsellers h3 {
     margin: 0;
     font-size: 2.2em;
 }
-#bestsellers-products, #recommended-books, #book-image{
+
+#bestsellers-products,
+#recommended-books,
+#book-image {
     height: fit-content;
     background-color: #041E5F;
     padding: 2.5em;
     text-align: center;
 }
-.product-box{
+
+.product-box {
     margin-bottom: 3em;
     color: #FFFFFF;
 }
-.product{
+
+.product {
     height: 30dvh;
     background-color: #FFFFFF;
     padding: 1em 3.5em 1em 3.5em;
     flex-grow: 0;
 }
-.product-image{
+
+.product-image {
     height: 30dvh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
-.product-image img{
+
+.product-image img {
     height: 30dvh;
     object-fit: contain;
     flex-shrink: 0;
     width: 100%;
     height: 100%;
 }
-.add-to-cart{
+
+.add-to-cart {
     width: 20em;
     height: 3em;
     color: #ffffff;
@@ -101,32 +119,38 @@ hr{
     background-color: #041E5F;
     border-radius: .3em;
 }
-#recommended{
+
+#recommended {
     background-color: #041E5F;
     text-align: center;
     color: #FFFFFF;
     padding: 1em 0em 0em 0em;
 }
-#recommended p{
+
+#recommended p {
     margin: 0;
     font-size: 1.1em;
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-#recommended h3{
+
+#recommended h3 {
     margin: 0;
     font-size: 2.2em;
-    font-family: "Bebas",sans-serif;
+    font-family: "Bebas", sans-serif;
 }
-#daily-quote{
-    font-family: 'Raleway',sans-serif;
+
+#daily-quote {
+    font-family: 'Raleway', sans-serif;
     font-size: 3.5em;
     color: #d9d9dc;
 }
-#daily-quote p{
+
+#daily-quote p {
     margin-top: 0em;
     margin-bottom: 0em;
 }
-#story-button{
+
+#story-button {
     color: #ffffff;
     border-color: #FFFFFF;
     background-color: #041E5F;
@@ -134,34 +158,43 @@ hr{
     width: 10em;
     border-radius: .3em;
 }
-#coming-up-books{
+
+#coming-up-books {
     text-align: center;
     color: #041E5F;
 }
-#coming-up-books p{
+
+#coming-up-books p {
     margin-bottom: 0em;
 }
-#coming-up-books h3{
+
+#coming-up-books h3 {
     margin-top: 0em;
     margin-bottom: .4em;
     font-size: 2.5em;
 }
-#book-details{
+
+#book-details {
     font-family: 'Abel', sans-serif;
     color: #041E5F;
     padding: 0em 0em 2em 2em;
 }
-.book-details{
+
+.book-details {
     font-size: 3em;
     height: fit-content;
 }
-.book-author, .launchdate{
+
+.book-author,
+.launchdate {
     font-size: 1.2em;
 }
+
 .location-and-time {
     font-size: 1.65em;
 }
-.rsvp{
+
+.rsvp {
     width: 10em;
     height: 3em;
     background-color: #ffffff;
@@ -170,40 +203,51 @@ hr{
     color: #041E5F;
     border-radius: .3em;
 }
-footer{
+
+footer {
     background-color: #041E5F;
     height: fit-content;
     padding: 0em 1em 1em .8em;
 }
-.footer-text{
+
+.footer-text {
     color: #FFFFFF;
     text-align: center;
-    font-family: 'Abel',sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 1.2em;
 }
-#first-section, #second-section, #third-section, #fourth-section, #fifth-section{
+
+#first-section,
+#second-section,
+#third-section,
+#fourth-section,
+#fifth-section {
     padding: 1em 0em 1em 0em;
 }
-footer .heading{
+
+footer .heading {
     padding-bottom: 1em;
 }
-.email-input{
-   background-color: #041E5F;
-   color: #FFFFFF;
-   border-style:solid;
-   border-width: .2em;
-   border-color: #FFFFFF;
-   height: 2em;
-   width: 100%;
-   padding: 1.2em;
-   box-sizing: border-box;
-}
-.email-input::placeholder{
+
+.email-input {
+    background-color: #041E5F;
     color: #FFFFFF;
-    font-family: 'Abel',sans-serif;
+    border-style: solid;
+    border-width: .2em;
+    border-color: #FFFFFF;
+    height: 2em;
+    width: 100%;
+    padding: 1.2em;
+    box-sizing: border-box;
+}
+
+.email-input::placeholder {
+    color: #FFFFFF;
+    font-family: 'Abel', sans-serif;
     font-size: 1.3em;
 }
-.sub-button{
+
+.sub-button {
     margin-top: 1em;
     width: 100%;
     background-color: #FFFFFF;
@@ -213,13 +257,15 @@ footer .heading{
     color: #041E5F;
     height: 2.5em;
 }
-span.footer-text{
+
+span.footer-text {
     padding-left: .2em;
     text-align: center;
     font-size: 1em;
     color: #FFFFFF;
 }
-.copy{
+
+.copy {
     font-size: .6em;
     padding-top: .5em;
     text-align: end;
@@ -228,84 +274,101 @@ span.footer-text{
 
 
 @media screen and (min-width: 615px) {
-    #css-navbar{
+    #css-navbar {
         display: flex;
         justify-content: space-between;
         height: 8dvh;
     }
-    #navbar-logo img{
+
+    #navbar-logo img {
         padding-top: 1.5dvh;
         width: 25dvh;
 
     }
+
     #navbar-items ul li {
         display: inline-block;
-        
+
     }
+
     #navbar-items ul li a:hover {
         background-color: #041E5F;
         color: #FFFFFF;
         transition-duration: 200ms;
         padding: .4em;
     }
-    #background-image-1{
+
+    #background-image-1 {
         height: 60dvh;
     }
-    #background-image-1 p{
+
+    #background-image-1 p {
         font-size: 1.6em;
         margin-left: 2em;
     }
-    #bestsellers-products{
+
+    #bestsellers-products {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
     }
-    #recommended-books{
+
+    #recommended-books {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
     }
-    #daily-quote{
+
+    #daily-quote {
         padding-bottom: 1em;
     }
-    #daily-quote p:nth-child(4){
+
+    #daily-quote p:nth-child(4) {
         padding-bottom: .7em;
     }
-    #coming-up-book{
+
+    #coming-up-book {
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    footer{
+
+    footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    .footer-text{
+
+    .footer-text {
         text-align: left;
     }
-    #fourth-section{
+
+    #fourth-section {
         width: 20em;
     }
-    .email-input .sub-button{
+
+    .email-input .sub-button {
         width: 100%;
     }
-    .add-to-cart:hover, #story-button:hover{
+
+    .add-to-cart:hover,
+    #story-button:hover {
         background-color: #FFFFFF;
         color: #041E5F;
         transition-duration: 200ms;
         border-color: #0548ef;
     }
-    .copy{
+
+    .copy {
         font-size: .6em;
         padding-top: .5em;
         text-align: end;
         color: #FFFFFF;
     }
-    
+
 
 }
