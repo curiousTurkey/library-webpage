@@ -173,13 +173,13 @@ hr{
 footer{
     background-color: #041E5F;
     height: fit-content;
-    padding: 0em 2em 1em 2em;
+    padding: 0em 1em 1em .8em;
 }
 .footer-text{
     color: #FFFFFF;
     text-align: center;
     font-family: 'Abel',sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 #first-section, #second-section, #third-section, #fourth-section, #fifth-section{
     padding: 1em 0em 1em 0em;
@@ -219,6 +219,13 @@ span.footer-text{
     font-size: 1em;
     color: #FFFFFF;
 }
+.copy{
+    font-size: .6em;
+    padding-top: .5em;
+    text-align: end;
+    color: #FFFFFF;
+}
+
 
 @media screen and (min-width: 615px) {
     #css-navbar{
@@ -274,8 +281,12 @@ span.footer-text{
     }
     footer{
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .footer-text{
+        text-align: left;
     }
     #fourth-section{
         width: 20em;
@@ -288,6 +299,12 @@ span.footer-text{
         color: #041E5F;
         transition-duration: 200ms;
         border-color: #0548ef;
+    }
+    .copy{
+        font-size: .6em;
+        padding-top: .5em;
+        text-align: end;
+        color: #FFFFFF;
     }
     
 
