@@ -331,12 +331,24 @@ span.footer-text {
         font-size: 1.6em;
         margin-left: 2em;
     }
-
+    .add-to-cart{
+        opacity: 0;
+        transition-duration: 500ms;
+    }
+    .product-box:hover{
+        margin-bottom: 1em;
+        transition-duration: 500ms;
+    }
+    .product-box:hover .add-to-cart{
+        opacity: 1;
+        transition-duration: 500ms;
+    }
     #bestsellers-products {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        transition: 200ms;
     }
 
     #recommended-books {
