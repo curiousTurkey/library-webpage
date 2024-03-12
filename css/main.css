@@ -82,6 +82,9 @@ hr {
     padding: 2.5em;
     text-align: center;
 }
+#recommended h3{
+    font-weight: 800;
+}
 
 .product-box {
     margin-bottom: 3em;
@@ -271,7 +274,29 @@ span.footer-text {
     text-align: end;
     color: #FFFFFF;
 }
+/* Contact Page CSS Beginning */
 
+.contact-heading{
+    text-align: center;
+}
+.contact-heading p{
+    margin: .5em 0em 0em 0em;
+} 
+.contact-heading p:nth-child(2){
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Prompt',sans-serif;
+    font-weight: 600;
+    letter-spacing: .4rem;
+}
+.contact-form{
+    margin: 1em 0em 1em 0em;
+    height: 80dvh;
+    border: 1em solid #041E5F;
+}
+.contact-address-container{
+    text-align: center;
+}
 
 @media screen and (min-width: 615px) {
     #css-navbar {
