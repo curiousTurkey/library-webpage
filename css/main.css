@@ -359,8 +359,12 @@ p.email{
     background-color: #041E5F;
     border-radius: .3em;
 }
-input[type=text], input[type=email]:focus{
+input[type=text], input[type=email], textarea:focus{
     outline: none;
+}
+textarea{
+    resize: none;
+    overflow: hidden;
 }
 ::placeholder{
     color: #041E5F;
