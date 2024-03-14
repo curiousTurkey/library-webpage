@@ -365,6 +365,9 @@ input[type=text], input[type=email], textarea:focus{
 textarea{
     resize: none;
     overflow: hidden;
+    border: none;
+    border-style: inset;
+    border-bottom: #041E5F 2px;
 }
 ::placeholder{
     color: #041E5F;
