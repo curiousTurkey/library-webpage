@@ -29,4 +29,4 @@
              Keywords: Included meta keywords for my webpage to identify easily by webcrawlers for relevant searches or content.
              Description: Provided a description for my website for internet users to identify what contents are in the webpoage.
              Robots: added "all" as an option in Robots for indexing my webpage in search results in web browsers.
-     These are the strategies used by me to improve search engine optimization.              
+       These are the strategies used by me to improve search engine optimization.              
