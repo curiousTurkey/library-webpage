@@ -82,7 +82,8 @@ hr {
     padding: 2.5em;
     text-align: center;
 }
-#recommended h3{
+
+#recommended h3 {
     font-weight: 800;
 }
 
@@ -274,26 +275,30 @@ span.footer-text {
     text-align: end;
     color: #FFFFFF;
 }
+
 /* Contact Page CSS Beginning */
 
-.contact-heading{
+.contact-heading {
     text-align: center;
-    background-color:#eeeefc;
+    background-color: #eeeefc;
     color: #041E5F;
-   padding-top: 1em; 
+    padding-top: 1em;
 }
-.contact-heading p{
+
+.contact-heading p {
     margin: 0;
 }
-.contact-heading p:nth-child(2){
+
+.contact-heading p:nth-child(2) {
     font-size: 2em;
     margin: 0;
-    font-family: 'Prompt',sans-serif;
+    font-family: 'Prompt', sans-serif;
     font-weight: 600;
     letter-spacing: .4rem;
 }
-.contact-form{
-    
+
+.contact-form {
+
     margin: 1em 0em 1em 0em;
     height: fit-content;
     border: 1em solid #041E5F;
@@ -301,47 +306,57 @@ span.footer-text {
     color: #041E5F;
     padding-bottom: 1em;
 }
-.contact-form-content{
+
+.contact-form-content {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.contact-address-container{
+
+.contact-address-container {
     text-align: center;
     font-family: 'Raleway', Helvetica, sans-serif;
 }
-.contact-address-container > p:nth-child(even){
+
+.contact-address-container>p:nth-child(even) {
     margin: 0;
 }
-.contact-address-container > p:nth-child(odd){
+
+.contact-address-container>p:nth-child(odd) {
     margin-top: 0;
 }
-.storename{
+
+.storename {
     font-size: 1.5em;
     display: block;
     margin-top: .8em;
     margin-bottom: .8em;
     font-weight: 800;
 }
-p.email{
+
+p.email {
     margin-bottom: 2.5em;
 }
-.socials{
+
+.socials {
     display: flex;
     justify-content: space-around;
     padding: 1.5em;
 }
+
 .socials i {
     font-size: 2em;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.contact-input{
+
+.contact-input {
     border: none;
     width: 90%;
     border-bottom: .1em solid #041E5F;
@@ -351,7 +366,8 @@ p.email{
     font-size: 1.2em;
     color: #041E5F;
 }
-.contact-submit{
+
+.contact-submit {
     width: 20em;
     height: 3em;
     color: #ffffff;
@@ -359,20 +375,31 @@ p.email{
     background-color: #041E5F;
     border-radius: .3em;
 }
-input[type=text], input[type=email], textarea:focus{
+
+input[type=text],
+input[type=email],
+textarea:focus {
     outline: none;
 }
-textarea{
+
+textarea {
     resize: none;
     overflow: hidden;
     border: none;
     border-style: inset;
     border-bottom: #041E5F 2px;
 }
-::placeholder{
+
+::placeholder {
     color: #041E5F;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+a:visited,
+a {
+    color: #041E5F;
+}
+
 @media screen and (min-width: 615px) {
     #css-navbar {
         display: flex;
@@ -406,18 +433,22 @@ textarea{
         font-size: 1.6em;
         margin-left: 2em;
     }
-    .add-to-cart{
+
+    .add-to-cart {
         opacity: 0;
         transition-duration: 500ms;
     }
-    .product-box:hover{
+
+    .product-box:hover {
         margin-bottom: 1em;
         transition-duration: 500ms;
     }
-    .product-box:hover .add-to-cart{
+
+    .product-box:hover .add-to-cart {
         opacity: 1;
         transition-duration: 500ms;
     }
+
     #bestsellers-products {
         display: flex;
         justify-content: space-around;
@@ -481,21 +512,25 @@ textarea{
         text-align: end;
         color: #FFFFFF;
     }
-    .contact-address-container{
+
+    .contact-address-container {
         padding: 1.8em;
     }
-    .contact-form-content{
+
+    .contact-form-content {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        
+
     }
-    .contact-input{
+
+    .contact-input {
         width: 69%;
     }
-    .contact-submit:hover{
+
+    .contact-submit:hover {
         background-color: #FFFFFF;
         color: #041E5F;
         font-weight: 700;
