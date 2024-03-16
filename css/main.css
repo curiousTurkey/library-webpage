@@ -4,7 +4,23 @@ body {
     margin: 0;
     background-color: #f1f1f7;
 }
-
+@keyframes grow {
+    from{
+        transform: scaleX(0);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+.scroll-progress{
+    position: fixed;
+    background-color: #e8059c;
+    height: .15em;
+    width: 100%;
+    transform-origin: 0 50%;
+    animation: grow auto linear;
+    animation-timeline: scroll();
+}
 hr {
     border: 0;
     margin: 0;
